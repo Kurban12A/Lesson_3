@@ -9,11 +9,11 @@ def calculation(operation_input, n1, n2):
         if operation_input == "+":
             return n1 + n2
         elif operation_input == "-":
-            return n1 + n2
+            return n1 - n2
         elif operation_input == "*":
-            return n1 + n2
+            return n1 * n2
         elif operation_input == "/":
-            return n1 + n2
+            return n1 / n2
         else:
             print("Error")
         break
